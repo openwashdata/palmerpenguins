@@ -20,7 +20,7 @@ src="man/figures/README-fa-icon-9e25601f72c0b4fff1c079a486ca8bba.svg"
 style="width:0.97em;height:1em" /> with:
 
 ``` r
-devtools::install_github("Global-Health-Engineering/palmerpenguins", dependencies = TRUE)
+devtools::install_github("openwashdata/palmerpenguins", dependencies = TRUE)
 ```
 
 ------------------------------------------------------------------------
@@ -47,7 +47,7 @@ individual datasets as CSV files.
 
 | dataset | CSV |
 |:---|:---|
-| penguins | [Download CSV](https://github.com/Global-Health-Engineering/palmerpenguins/raw/main/inst/extdata/penguins.csv) |
+| penguins | [Download CSV](https://github.com/openwashdata/palmerpenguins/raw/main/inst/extdata/penguins.csv) |
 
 ## Data
 
@@ -70,7 +70,7 @@ get("penguins") |>
   gt::as_raw_html()
 ```
 
-<div id="lddmyxqzyh"
+<div id="haialylgev"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif, &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;, &#39;Noto Color Emoji&#39;; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
@@ -285,7 +285,7 @@ female
 
 For an overview of the variable names, see the following table.
 
-<div id="neeqsqklts"
+<div id="nqlwgqvpsz"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif, &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;, &#39;Noto Color Emoji&#39;; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
@@ -329,8 +329,7 @@ integer
 
 <td headers="description" class="gt_row gt_left" style="border-style: none; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; text-align: left;" valign="middle" align="left">
 
-Unique identifier assigned to each penguin observation. (Range: 1 to
-344)
+Unique identifier for each penguin observation. (Range: 1 to 344)
 </td>
 
 </tr>
@@ -349,8 +348,8 @@ character
 
 <td headers="description" class="gt_row gt_left" style="border-style: none; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; text-align: left;" valign="middle" align="left">
 
-Categorical classification of the penguin species. (Examples: Adelie,
-Gentoo, Chinstrap)
+Species classification of the penguin. (Examples: Adelie, Gentoo,
+Chinstrap)
 </td>
 
 </tr>
@@ -369,7 +368,7 @@ character
 
 <td headers="description" class="gt_row gt_left" style="border-style: none; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; text-align: left;" valign="middle" align="left">
 
-Sampling location of the penguin observation. (Examples: Torgersen,
+Island location where the penguin was observed. (Examples: Torgersen,
 Biscoe, Dream)
 </td>
 
@@ -389,7 +388,7 @@ numeric
 
 <td headers="description" class="gt_row gt_left" style="border-style: none; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; text-align: left;" valign="middle" align="left">
 
-Length of the penguin’s bill measured in millimeters. (Range: 32.1 to
+Bill length of the penguin measured in millimeters. (Range: 32.1 to
 59.6)
 </td>
 
@@ -409,8 +408,7 @@ numeric
 
 <td headers="description" class="gt_row gt_left" style="border-style: none; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; text-align: left;" valign="middle" align="left">
 
-Depth of the penguin’s bill measured in millimeters. (Range: 13.1 to
-21.5)
+Bill depth of the penguin measured in millimeters. (Range: 13.1 to 21.5)
 </td>
 
 </tr>
@@ -429,7 +427,7 @@ integer
 
 <td headers="description" class="gt_row gt_left" style="border-style: none; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; text-align: left;" valign="middle" align="left">
 
-Length of the penguin’s flipper measured in millimeters. (Range: 172 to
+Flipper length of the penguin measured in millimeters. (Range: 172 to
 231)
 </td>
 
@@ -487,8 +485,7 @@ integer
 
 <td headers="description" class="gt_row gt_left" style="border-style: none; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; text-align: left;" valign="middle" align="left">
 
-Year when the penguin observation was recorded. (Examples: 2007, 2008,
-2009)
+Year of the penguin observation. (Examples: 2007, 2008, 2009)
 </td>
 
 </tr>
@@ -502,7 +499,7 @@ Year when the penguin observation was recorded. (Examples: 2007, 2008,
 ## License
 
 Data are available as
-[CC-BY](https://github.com/Global-Health-Engineering/palmerpenguins/blob/main/LICENSE.md).
+[CC-BY](https://github.com/openwashdata/palmerpenguins/blob/main/LICENSE.md).
 
 ## Citation
 

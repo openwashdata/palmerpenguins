@@ -6,10 +6,6 @@ format: html
 # fairenough's pipeline
 
 ```{r}
-devtools::install_github("openwashdata/fairenough")
-```
-
-```{r}
 chat <- ellmer::chat_openai(model = "gpt-4.1-nano",api_args = list(temperature=0.3))
 
 Nicolo <- list(given = "Nicolo", 
@@ -32,11 +28,11 @@ Liz <- list(given = "Elizabeth",
             affiliation="ETH Zurich")
 
 fairenough::fairenough(chat, 
-                pkg_name = "palmerpenguins",
-                title = "Palmer Penguins",
-                description = "The Palmer Penguins dataset contains penguins measurements.",
-                github_user = "Global-Health-Engineering",
-                authors = list(Nicolo, Lars, Liz),
-                license =  "CC-BY-4.0",
-                overwrite = TRUE)
+    pkg_name = "palmerpenguins",
+    title = "Palmer Penguins",
+    description = "The Palmer Penguins dataset contains penguins measurements.",
+    github_user = "openwashdata",
+    authors = list(Nicolo, Lars, Liz),
+    license =  "CC-BY-4.0",
+    overwrite = TRUE)
 ```
