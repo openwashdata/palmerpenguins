@@ -1,3 +1,7 @@
 ^fairenoughTEST\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^palmerpenguins\.Rproj$
+^rv/
+^rproject\.toml$
+^rv\.lock$

@@ -2,3 +2,11 @@
 __pycache__
 *egg*
 build
+rv/
+.Rproj.user
+data_raw/
+*.bk*
+*.DS_Store
+.Rhistory
+.RData
+.Ruserdata

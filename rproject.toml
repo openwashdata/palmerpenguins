@@ -1,0 +1,11 @@
+[project]
+name = "palmerpenguins"
+r_version = "4.5.1"
+
+repositories = [
+    { alias = "CRAN", url = "https://cloud.r-project.org" }
+]
+
+dependencies = [
+    { name = "fairenough", git = "https://github.com/openwashdata/fairenough", branch = "main" }
+]
