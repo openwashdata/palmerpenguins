@@ -7,7 +7,7 @@
 \format{
 A data frame with 344 rows and 9 variables:
 \describe{
-\item{rowid}{Unique identifier for each penguin observation. (Range: 1 to 344)}
+\item{rowid}{Unique identifier assigned to each penguin record. (Range: 1 to 344)}
 \item{species}{Species classification of the penguin. (Examples: Adelie, Gentoo, Chinstrap)}
 \item{island}{Island location where the penguin was observed. (Examples: Torgersen, Biscoe, Dream)}
 \item{bill_length_mm}{Bill length of the penguin measured in millimeters. (Range: 32.1 to 59.6)}
