@@ -16,6 +16,6 @@ bibentry(bibtype = "Misc",
                            comment = c(ORCID = "0000-0002-2095-9724"))),
          year = "2025",
          doi = "10.32614/CRAN.package.palmerpenguins",
-         url = "https://Global-Health-Engineering.github.io/palmerpenguins",
+         url = "https://openwashdata.github.io/palmerpenguins",
          abstract = "The Palmer Penguins dataset contains penguins measurements.",
          version = "0.0.1")

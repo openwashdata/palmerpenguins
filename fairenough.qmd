@@ -34,6 +34,6 @@ fairenough::fairenough(chat,
     github_user = "openwashdata",
     authors = list(Nicolo, Lars, Liz),
     license =  "CC-BY-4.0",
-    overwrite = TRUE,
-    base_path="tests/palmerpenguins")
+    base_path="tests/palmerpenguins",
+    overwrite=TRUE)
 ```

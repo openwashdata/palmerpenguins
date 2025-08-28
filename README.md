@@ -70,7 +70,7 @@ get("penguins") |>
   gt::as_raw_html()
 ```
 
-<div id="oajxrauzye"
+<div id="dnqgouxjqw"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif, &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;, &#39;Noto Color Emoji&#39;; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
@@ -285,7 +285,7 @@ female
 
 For an overview of the variable names, see the following table.
 
-<div id="vklybqfoda"
+<div id="qaorgyqkif"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif, &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;, &#39;Noto Color Emoji&#39;; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
@@ -329,7 +329,8 @@ integer
 
 <td headers="description" class="gt_row gt_left" style="border-style: none; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; text-align: left;" valign="middle" align="left">
 
-Unique identifier assigned to each penguin record. (Range: 1 to 344)
+Unique identifier assigned to each penguin observation. (Range: 1 to
+344)
 </td>
 
 </tr>
@@ -368,7 +369,7 @@ character
 
 <td headers="description" class="gt_row gt_left" style="border-style: none; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; text-align: left;" valign="middle" align="left">
 
-Island location where the penguin was observed. (Examples: Torgersen,
+Location of the penguin observation on the island. (Examples: Torgersen,
 Biscoe, Dream)
 </td>
 
@@ -506,7 +507,7 @@ Data are available as
     #> To cite package 'palmerpenguins' in publications use:
     #> 
     #>   Massari N, Schöbitz L, Tilley E (2025). "palmerpenguins: Palmer Penguins." doi:10.32614/CRAN.package.palmerpenguins
-    #>   <https://doi.org/10.32614/CRAN.package.palmerpenguins>, <https://Global-Health-Engineering.github.io/palmerpenguins>.
+    #>   <https://doi.org/10.32614/CRAN.package.palmerpenguins>, <https://openwashdata.github.io/palmerpenguins>.
     #> 
     #> A BibTeX entry for LaTeX users is
     #> 
@@ -515,7 +516,7 @@ Data are available as
     #>     author = {Nicolo Massari and Lars Schöbitz and Elizabeth Tilley},
     #>     year = {2025},
     #>     doi = {10.32614/CRAN.package.palmerpenguins},
-    #>     url = {https://Global-Health-Engineering.github.io/palmerpenguins},
+    #>     url = {https://openwashdata.github.io/palmerpenguins},
     #>     abstract = {The Palmer Penguins dataset contains penguins measurements.},
     #>     version = {0.0.1},
     #>   }
